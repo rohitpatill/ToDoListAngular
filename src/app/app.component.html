@@ -9,7 +9,8 @@
 <ul *ngFor="let item of list">
   <li>
     {{item.name}}
-    <button (click)="removeTask(item)">Remove</button>
+    <button (click)="removeTask(item.id)">Remove</button>
+
   </li>
 
 </ul>
